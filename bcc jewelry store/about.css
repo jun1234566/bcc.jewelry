@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   color: blue;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 100;
+    width: 200;
+    padding: 20px 20px;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: rgb(225, 225, 225);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mylogo {
+    position: relative;
+    font-size: 25px;
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.navbar a {
+    position: left;
+    font-size: 1.1em;
+    color: white;
+    text-decoration-color: none;
+    font-weight: 700;
+    margin-left: 70px;
+    border-radius: 0;
+}
+
+navbar {
+    margin-bottom: 50px;
+    border-radius: 50px;
+  }
+.navbar a:hover {
+    color: #ffa31a;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    padding: 70px 10%;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(235, 235, 255);
+}
+
+span {
+    color: #ffa31a;
+}
+
+.content p {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(183, 183, 183)
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+
+.image-container {
+    position: absolute;
+    top: 10%;
+    right: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background: rgb(0, 8, 126);
+    padding-top: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
